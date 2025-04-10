@@ -1,0 +1,17 @@
+ git hub:
+ 
+ git init
+ git add .
+git commit -m "success"
+git remote add origin https://github.com/ShivaThallapelli3/example.git
+ git branch -M main
+git push origin main
+
+ 
+ 
+ 
+ sudo docker build -t flask-app .
+ 
+sudo docker run -p 5000:5000 flask-app
+
+
